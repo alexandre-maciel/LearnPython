@@ -1,5 +1,7 @@
-# faça um programa que abra e reproduza o audio de um arquivo mp3.
+# Peça um número ao usuário e diga se ele é par ou ímpar.
 
-from playsound import playsound
-
-playsound('audio.mp3')
+n1 = int(input("digite um valor: "))
+if n1 % 2 == 0:
+  print(f"O numero {n1} é par")
+else:
+    print (f"O numero {n1} é impar")

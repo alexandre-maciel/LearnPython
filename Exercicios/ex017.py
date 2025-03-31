@@ -4,10 +4,10 @@ import random
 print('\nSorteia 1 entre 4 alunos com solicitação para digitar seus nomes')
 print('\nINSERÇÃO DE DADOS')
 
-lista = input("Primeiro aluno: "), \
-        input("Segundo aluno: "), \
-        input("Terceiro aluno: "), \
-        input("Quarto aluno: ")
+lista = str(input("Primeiro aluno: ")), \
+        str(input("Segundo aluno: ")), \
+        str(input("Terceiro aluno: ")), \
+        str(input("Quarto aluno: "))
 
 print(f'\nOs alunos a serem sorteados são: {lista}')
 

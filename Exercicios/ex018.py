@@ -4,14 +4,16 @@ import random
 
 print('Sorteia a ordem em que os alunos vão se apresentar')
 
-lista = input('Primeiro aluno: '), \
-        input('Segundo aluno: '), \
-        input('Terceiro aluno: '), \
-        input('Quarto aluno: ')
+a1 = input('\nPrimeiro aluno: ')
+a2 = input('\nSegundo aluno: ')
+a3 = input('\nTerceiro aluno: ')
+a4 = input('\nQuarto aluno: ')
+
+lista = [a1, a2, a3, a4]
 
 print(f'\nOs alunos que vão se apresentar são {lista}')
 
-print (f'A ordem de apresentação dos trabalhos é: ')
+print (f'\n A ordem de apresentação dos trabalhos é: ')
 
 random.shuffle(lista)
 

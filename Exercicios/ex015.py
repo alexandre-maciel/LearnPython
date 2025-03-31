@@ -2,13 +2,10 @@
 
 import math
 
-op = int(input("insira o valor do cateto oposto: "))
-ad = int(input("insira o valor do cateto adjacente: "))
+op = float(input("insira o valor do cateto oposto: "))
+ad = float(input("insira o valor do cateto adjacente: "))
+hipotenusa = math.hypot(op, ad)
 
-calc = op + ad
-
-hipotenusa = math.sqrt(calc)
-
-print(f"O cateto oposto sendo {op} e o cateto adjacente {ad}, o valor da sua hipotenusa é {math.trunc(hipotenusa)}")
+print(f"O cateto oposto sendo {op} e o cateto adjacente {ad}, o valor da sua hipotenusa é {hipotenusa:.2f}")
 
 
