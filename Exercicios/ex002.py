@@ -1,12 +1,16 @@
-n1 = int(input("me de um valor: "))
-n2 = int(input("me de outro valor: "))
+# faça um programa que calcule a media entre dois numeros
 
-s= n1+n2
-m= n1*n2
-d= n1/n2
-di= n1//n2
+'''
+receber primeiro numero
+receber segundo numero
+somar os dois numeros e dividir por 2
+mostrar na tela qual o resultado
+'''
 
-print(f"A soma de {n1} mais {n2} é igual a {s}")
-print(f"A multiplicação de {n1} vezes {n2} é igual a {m}")
-print(f"A divisão de {n1} dividido por {n2} é igual a {d}")
-print(f"A divisão inteira de {n1} dividido por {n2} é igual a {d}")
+n1 = int(input("Qual é o primeiro número: "))
+n2 = int(input("Qual é o segundo número: "))
+
+soma = n1 + n2
+media = soma / 2
+
+print(f"A soma de {n1} e {n2} é igual a {soma} e sua média é {media}")

@@ -1,9 +1,9 @@
 # escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
 
-metro = int(input("insira o valor em metros "))
+metros = int(input("Digite o valor em metros: "))
 
-cm = metro*100
-mm = metro*1000
+centimetros = metros * 100
+milimetros = metros * 1000
 
-print(f"A medida em centimetros é {cm}")
-print(f"A medida em milimetros é {mm}")
+print (f"O valor de {metros} metros equivale à {centimetros} centimetros")
+print (f"O valor de {metros} metros equivale à {milimetros} milimetros")
