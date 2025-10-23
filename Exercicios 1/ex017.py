@@ -5,7 +5,16 @@
 2) importar a função random para sortear um nome dentre uma lista
 '''
 
+import random
 
+lista = str(input("Quem é o primeiro aluno: ")), \
+        str(input("Quem é o segundo aluno: ")), \
+        str(input("Quem é o terceiro aluno: ")), \
+        str(input("Quem é o quarto aluno: "))
+
+print (f"Os nomes a serem sorteados são: {lista}")
+
+print(f"O aluno escolhido foi o {random.choice(lista)}")
 
 
 

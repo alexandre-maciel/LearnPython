@@ -1,8 +1,9 @@
 # Peça 3 números e exiba o maior.
+# a função MAX puxa o maior numero de uma lista
 
 n1 = int(input("Primeiro número: "))
 n2 = int(input("Segundo número: "))
-n3= int(input("Terceiro número: "))
+n3 = int(input("Terceiro número: "))
 
 maior = max(n1, n2, n3)
 
