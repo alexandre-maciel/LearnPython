@@ -20,3 +20,20 @@ while (mult <= 10):
     print(f"{numero}x{mult}={conta}")
     mult = mult + 1
 print ('Fim da Tabuada')
+
+
+
+# EXERCÍCIO 6: Tabuada do 5
+
+print("--- Tabuada do 5 ---")
+
+# O loop 'for' vai iterar com a variável 'i' de 1 até 10 (o 11 é exclusivo)
+for i in range(1, 11):
+    # Calcula o resultado da multiplicação: 5 * i
+    resultado = 5 * i
+
+    # Imprime a linha no formato "5 x i = resultado"
+    # Usando f-string para facilitar a formatação
+    print(f"5 x {i} = {resultado}")
+
+print("--------------------")
