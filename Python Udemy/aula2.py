@@ -7,6 +7,8 @@ str = string = texto
 
 string são textos que estão dentro de aspas
 
+quando você quer colocar aspas dentro de um print, coloca aspas simples no print e aspas duplas dentro do texto
+
 '''
 
 print(1234)
