@@ -7,5 +7,4 @@ tipos imutáveis e primitivos: str, int, float, bool
 linguagens dinamicas podem fazer a soma de duas str
 '''
 
-print (1+1)
-print ('a' + 'b')
+print (int('1'), type(int('1')))
